@@ -153,7 +153,7 @@ nav ul .fa-solid{
 }
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 300px) {
   .body{
     color:#000000
     
@@ -167,8 +167,8 @@ nav ul{
     background-color: #e75f5f;
     position: fixed;
     top: 0;
-    right: -200px;
-    width: 200px;
+    right: -300px;
+    width: 300px;
     height: 100vh;
     padding-top: 20px;
     z-index: 5;
@@ -185,8 +185,17 @@ nav ul .fa-solid{
     left: 60px;
     cursor: pointer;
     color: #000000;
-
-
+}
+    .me{
+      font-size:10px;
+    
+    
+    }
+    .container{
+      margin-top: 20%;
+     
+    
+    
 
 }
 }
